@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">WangYunGang</string>
+    <string-array name="city_spinner">
+        <item>北京</item>
+        <item>上海 </item>
+        <item>广州</item>
+        <item>深圳</item>
+    </string-array>
+    <string-array name="color_spinner">
+        <item>红色</item>
+        <item>黑色</item>
+        <item>白色</item>
+        <item>蓝色</item>
+    </string-array>
+    <string name="title_activity_tab_host">TabHostActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

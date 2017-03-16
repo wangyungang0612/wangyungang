@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:textIsSelectable="true"
+        android:text="wangyungang" />
+
+
+    <!--  不可编辑    android:editable="false"      android:enabled="false"-->
+    <!--  选中状态    android:selectAllOnFocus="true"-->
+    <EditText
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:text="EditText"
+        android:editable="false"
+        android:selectAllOnFocus="true"/>
+
+    <!--  密码形式 android:password="true"-->
+    <EditText
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="111111111111"
+        android:textSize="26dp"
+        android:password="true"/>
+
+    <!--  只能输入数字   android:numeric="integer"-->
+    <EditText
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="111111111111"
+        android:textSize="26dp"
+        android:numeric="integer" />
+
+    <!--  空白提示文字   android:hint="请输入用户名"-->
+    <EditText
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:hint="请输入用户名"
+        android:textColorHint="#238745"/>
+
+    <!--  去除下划线   android:background="@null"-->
+    <EditText
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:hint="请输入用户名"
+        android:background="@null"
+        android:textColorHint="#238745"/>
+
+    <!--  只接受电话号码输入的文本框   android:phoneNumber="true"-->
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:phoneNumber="true"/>
+    <TextView
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="请选择您的性别："
+        android:textSize="26dp"
+         />
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+         <RadioButton
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/radioMale"
+             android:text="男"
+             android:textSize="26dp"
+             android:checked="true">
+         </RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioFemale"
+            android:textSize="26dp"
+            android:text="女">
+        </RadioButton>
+    </RadioGroup>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="@dimen/button"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:text="spinner"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:textSize="26dp"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="@dimen/button"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:text="旋转屏幕"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:textSize="26dp"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="@dimen/button"
+        android:layout_height="wrap_content"
+        android:id="@+id/ListView111"
+        android:text="ListView"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:textSize="26dp"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="@dimen/button"
+        android:layout_height="wrap_content"
+        android:id="@+id/ListViewSimpleAdapter"
+        android:text="ListViewSimpleAdapter"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:textSize="26dp"/>
+</LinearLayout>

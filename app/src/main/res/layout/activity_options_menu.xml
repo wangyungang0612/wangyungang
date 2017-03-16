@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/jj">
+    <TextView
+        android:id="@+id/text00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按下Menu键出现选项菜单"/>
+</LinearLayout>

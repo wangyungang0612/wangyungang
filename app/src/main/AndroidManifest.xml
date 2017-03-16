@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:uses-permissionandroid="http://schemas.android.com/tools"
+    package="com.example.administrator.wangyungang">
+
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/aa"
+        android:label="王运刚"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EditTextActivity" />
+        <activity android:name=".SpinnerActivity" />
+        <activity
+            android:name=".LayoutActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".TimeActivity" />
+        <activity android:name=".DrawActivity" />
+        <activity android:name=".SimpleAdapterActivity" />
+        <activity android:name=".DialogActivity" />
+        <activity android:name=".AutoCompleteActivity" />
+        <activity android:name=".ImageSwitcherActivity" />
+        <activity android:name=".TextSwitcherActivity" />
+        <activity android:name=".GalleryActivity" />
+        <activity android:name=".GridViewActivity" />
+        <activity android:name=".TabHostActivity" />
+        <activity android:name=".TabHost2Activity" />
+        <activity android:name=".OptionsMenuActivity" />
+        <activity android:name=".ContextMenuActivity" />
+        <activity android:name=".Listview3Activity" />
+        <activity android:name=".ChartActivity" />
+        <activity android:name=".SlidingDrawerActivity" />
+        <activity android:name=".ZoomActivity" />
+        <activity android:name=".PopupWindowActivity" />
+        <activity android:name=".ExpandableListActivity" />
+        <activity android:name=".SaveDataActivity" />
+        <activity android:name=".FileActivity" />
+        <activity android:name=".DomActivity" />
+        <activity android:name=".Dom2Activity" />
+        <activity android:name=".MySAXActivity" />
+        <activity android:name=".MyJSONActivity" />
+        <activity android:name=".MySQliteActivity" />
+
+        <provider
+            android:name=".provider.Myprovider"
+            android:authorities="com.example.administrator.wangyungang.provider.myprovider"></provider>
+
+        <activity android:name=".MediaPlayerActivity"></activity>
+    </application>
+
+</manifest>

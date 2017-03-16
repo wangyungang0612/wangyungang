@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+  <AutoCompleteTextView
+      android:id="@+id/Auto"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+  <SeekBar
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/seekBar"/>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/seekBarTextView"
+      android:scrollbars="vertical" />
+
+  <ImageView
+      android:layout_width="70dp"
+      android:layout_height="70dp"
+      android:id="@+id/image"
+      android:src="@drawable/people"/>
+
+  <SeekBar
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/seekBar2"/>
+  <SeekBar
+      android:layout_marginTop="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/seekBar3"/>
+  <RatingBar
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:numStars="5"
+      android:stepSize="0.5"
+      android:isIndicator="false"
+      android:id="@+id/RatingBar1"/>
+  <RatingBar
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:numStars="5"
+      android:rating="3"
+      android:isIndicator="true"
+      android:id="@+id/RatingBar2"/>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/ratingBarTextView"
+      android:scrollbars="vertical" />
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+    <Button
+        android:layout_width="@dimen/button"
+        android:layout_height="wrap_content"
+        android:id="@+id/change"
+        android:text="图片切换"
+        android:textSize="26dp"/>
+
+    <Button
+        android:layout_width="@dimen/button"
+        android:layout_height="wrap_content"
+        android:id="@+id/Textchange"
+        android:text="文本切换"
+        android:textSize="26dp"/>
+  </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+    <Button
+        android:layout_width="@dimen/button"
+        android:layout_height="wrap_content"
+        android:id="@+id/Tuola"
+        android:text="拖拉图片"
+        android:textSize="26dp"/>
+
+    <Button
+        android:layout_width="@dimen/button"
+        android:layout_height="wrap_content"
+        android:id="@+id/wangge"
+        android:text="网格布局"
+        android:textSize="26dp"/>
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+    <Button
+        android:layout_width="@dimen/button"
+        android:layout_height="wrap_content"
+        android:id="@+id/biaoqian"
+        android:text="标        签"
+        android:textSize="26dp"/>
+    <Button
+        android:layout_width="@dimen/button"
+        android:layout_height="wrap_content"
+        android:id="@+id/caidan"
+        android:text="选 项 菜 单"
+        android:textSize="26dp"/>
+  </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+    <Button
+        android:layout_width="@dimen/button"
+        android:layout_height="wrap_content"
+        android:id="@+id/scaidan"
+        android:text="上下文菜单"
+        android:textSize="26dp"/>
+
+  </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+

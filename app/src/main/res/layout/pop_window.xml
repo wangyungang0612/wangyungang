@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/poptext"
+        android:textSize="50px"
+        android:text="请选择当前的状态"/>
+    <RadioGroup
+        android:id="@+id/changestatus"
+        android:orientation="vertical"
+        android:checkedButton="@+id/online"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+           android:id="@+id/online"
+            android:text="在线"/>
+        <RadioButton
+            android:id="@+id/offline"
+            android:text="离线"/>
+        <RadioButton
+            android:id="@+id/stealth"
+            android:text="隐身"/>
+    </RadioGroup>
+
+<Button
+    android:id="@+id/cancel"
+    android:text="取消"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+</LinearLayout>
